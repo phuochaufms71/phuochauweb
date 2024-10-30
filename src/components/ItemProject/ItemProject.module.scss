@@ -1,0 +1,41 @@
+.list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 100px;
+}
+
+.item {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #e6e6e6;
+    transition: 0.3s;
+
+    &:hover {
+        scale: 1.1;
+        cursor: pointer;
+    }
+
+    &__code {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 10px auto;
+        background: #e6e6e6;
+        padding: 10px;
+        text-align: center;
+        border-radius: 4px;
+    }
+
+    &__title {
+        margin: 10px auto;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    &__img {
+        width: 300px;
+        object-fit: cover;
+        display: block;
+    }
+}
